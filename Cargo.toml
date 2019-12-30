@@ -1,0 +1,16 @@
+[package]
+name = "another-option"
+version = "0.1.0"
+authors = ["David James <davidcjames@gmail.com>"]
+edition = "2018"
+description = "Another option data type; useful when allocations are expensive."
+# homepage = ""
+repository = "https://github.com/xpe/another-option"
+readme = "README.md"
+keywords = ["option", "some", "none", "allocation"]
+categories = ["data-structures"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
