@@ -25,7 +25,7 @@
 //! let mut opt: Opt<String> = Opt::some(String::with_capacity(1024));
 //! opt.map_in_place(|v| v.push_str("value"));
 //! opt.set_none(); // does *not* drop the string
-//! opt.set_some(); // does *not* drop the string
+//! opt.set_some();
 //! assert_eq!(opt.unwrap(), String::from("value"));
 //! ```
 
